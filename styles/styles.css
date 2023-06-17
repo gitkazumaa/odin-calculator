@@ -1,0 +1,41 @@
+div {
+    display: flex;
+    flex-direction: row;
+}
+button {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.display-text-area {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.number-and-operator-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.number-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.operator-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
